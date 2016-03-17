@@ -1,0 +1,27 @@
+.social
+    display inline-block
+
+    &__icon
+        font-size 15px
+        border-radius 50%
+        width: $icon-size = 30px
+        height $icon-size
+        line-height $icon-size
+        display inline-block
+        text-align center
+        text-decoration none
+        transition all 0.2s ease-out
+
+        &--header
+            border 2px solid #999
+
+            &:hover
+                background-color #999
+                color #fff
+
+        &--footer
+            border 2px solid #fff
+
+            &:hover
+                background-color #fff
+                color $purple-dark
