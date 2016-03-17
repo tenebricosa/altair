@@ -1,0 +1,61 @@
+.title-h2
+    text-transform uppercase
+    text-align center
+    font-family 'KenyanCoffeeRg-Bold', sans-serif
+    font-size: 56px
+    margin: 0
+    user-select none
+    padding 70px 0 40px
+
+    .section:nth-of-type(odd) &
+        color $purple-dark
+
+    .section:nth-of-type(even) &
+        color #fff
+
+    .section:first-of-type &
+        padding 20px 0 40px
+
+    &__italic
+        font-family Pacifico, sans-serif
+        font-size 34px
+        font-weight 400
+        text-transform capitalize
+        display block
+        line-height: 1
+        transform rotate(-3deg)
+
+    &__big
+        font-size 104px
+
+        &--main
+            font-size 122px
+
+        .section:nth-of-type(odd) &
+            color red
+
+        .section:nth-of-type(even) &
+            color #fff
+
+    &__wrap
+        text-align: right
+        display inline-block
+
+    &__underline
+        font-size: 82px
+        color $purple-dark
+        position relative
+        vertical-align top
+        display inline-block
+        margin-top 5px
+
+        &:after
+            content ''
+            height 11px
+            width 100%
+            background-color $purple-dark
+            position absolute
+            bottom 0
+            left 0
+            right 0
+            margin auto

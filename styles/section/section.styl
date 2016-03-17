@@ -1,0 +1,21 @@
+.section
+    overflow hidden
+    position relative
+    min-width $content-min-width
+
+    &:nth-of-type(odd)
+        background-color #fff
+        color $font-dark
+
+    &:nth-of-type(even)
+        background-color $purple-dark
+        color #fff
+
+    &:before
+        content ''
+        position absolute
+        background-repeat no-repeat
+        margin auto
+        left 0
+        right 0
+        background-position center
