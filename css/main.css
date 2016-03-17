@@ -6,12 +6,15 @@
   font-style: normal;
 }
 .header__content {
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
@@ -44,20 +47,25 @@
   font-size: 14px;
   color: #fff;
   font-family: Arial, sans-serif;
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
 }
 .footer__content {
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
@@ -76,6 +84,7 @@
   color: #fff;
 }
 introduction {
+  background-image: -webkit-linear-gradient(top, #fff, rgba(120,110,142,0.1));
   background-image: linear-gradient(to bottom, #fff, rgba(120,110,142,0.1));
   min-height: 570px;
 }
@@ -104,9 +113,11 @@ introduction:before {
   bottom: 0;
 }
 .feature__content {
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -146,6 +157,7 @@ introduction:before {
   display: block;
   line-height: 1;
   -webkit-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
           transform: rotate(-3deg);
 }
 .title-h2__big {
@@ -218,6 +230,7 @@ introduction:before {
   display: inline-block;
   box-sizing: border-box;
   border: 2px solid transparent;
+  -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 .button__content:hover {
@@ -243,6 +256,7 @@ introduction:before {
   display: inline-block;
   text-align: center;
   text-decoration: none;
+  -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 .social__icon--header {
@@ -287,12 +301,15 @@ introduction:before {
 }
 .navigator__list {
   padding-left: 0;
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
@@ -304,6 +321,8 @@ introduction:before {
 .navigator__link {
   text-decoration: none;
   color: #999;
+  font-size: 13px;
+  text-transform: uppercase;
 }
 .navigator__link--active,
 .navigator__link:hover {
@@ -313,16 +332,20 @@ introduction:before {
   color: #999;
 }
 .portfolio {
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: top;
   -webkit-align-items: top;
       -ms-flex-align: top;
           align-items: top;
   opacity: 0;
+  -webkit-transition: opacity 0.4s ease-out 0.3s;
   transition: opacity 0.4s ease-out 0.3s;
   position: absolute;
   width: 69.68124536693847%;
@@ -409,6 +432,7 @@ introduction:before {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -434,6 +458,7 @@ introduction:before {
   right: 0;
   margin: 0 auto;
   opacity: 0;
+  -webkit-transition: opacity 0.4s ease-out;
   transition: opacity 0.4s ease-out;
 }
 .pagination__input:checked + .portfolio + .pagination {
@@ -527,12 +552,15 @@ introduction:before {
   background-color: #3f3b48;
   position: absolute;
   border-radius: 7px;
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
