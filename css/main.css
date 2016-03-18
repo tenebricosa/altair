@@ -83,15 +83,15 @@
   text-decoration: none;
   color: #fff;
 }
-introduction {
+.introduction {
   background-image: -webkit-linear-gradient(top, #fff, rgba(120,110,142,0.1));
   background-image: linear-gradient(to bottom, #fff, rgba(120,110,142,0.1));
   min-height: 570px;
 }
-introduction:nth-of-type(odd) {
+.introduction:nth-of-type(odd) {
   background-color: inherit;
 }
-introduction:before {
+.introduction:before {
   background-image: url("../img/section__introduction.png");
   height: 496px;
   bottom: -130px;
